@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.pkg.override.wk.ams.slack</string>
+	<string>com.github.impvaderbeeatch.pkg.slack</string>
 	<key>Input</key>
 	<dict>
 		<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
