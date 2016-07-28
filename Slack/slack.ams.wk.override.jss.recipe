@@ -15,7 +15,7 @@ https://github.com/homebysix/auto-update-magic</string>
 	<key>Description</key>
 	<string>Builds a package of Slack. Then, uploads to the JSS.</string>
 	<key>Identifier</key>
-	<string>local.jss.override.wk.ams.slack</string>
+	<string>com.github.impvaderbeeatch.jss.slack</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -34,7 +34,7 @@ https://github.com/homebysix/auto-update-magic</string>
 	<key>MinimumVersion</key>
 	<string>0.4.2</string>
 	<key>ParentRecipe</key>
-	<string>local.pkg.override.wk.ams.slack</string>
+	<string>com.github.impvaderbeeatch.pkg.slack</string>
 	<key>Process</key>
 	<array>
 		<dict>
