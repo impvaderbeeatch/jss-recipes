@@ -13,9 +13,9 @@ https://github.com/sheagcraig/JSSImporter
 For tips on integrating JSSImporter into your Casper environment, check out Auto Update Magic:
 https://github.com/homebysix/auto-update-magic</string>
 	<key>Description</key>
-	<string>Attempting to write my own recipe for Hightail jss part</string>
+	<string>Attempting to write my own recipe for Hightail jss</string>
 	<key>Identifier</key>
-	<string>com.github.impvaderbeeatch.jss.hightail</string>
+	<string>com.github.impvaderbeeatch.jss.hightailexpress</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -34,7 +34,7 @@ https://github.com/homebysix/auto-update-magic</string>
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.impvaderbeeatch.pkg.hightail</string>
+	<string>com.github.impvaderbeeatch.pkg.hightailexpress</string>
 	<key>Process</key>
 	<array>
 		<dict>
@@ -46,7 +46,7 @@ https://github.com/homebysix/auto-update-magic</string>
 				<array>
 					<dict>
 						<key>name</key>
-						<string>SW: Hightail Candidate</string>
+						<string>SW: Hightail Express Candidate</string>
 						<key>smart</key>
 						<true/>
 						<key>template_path</key>
