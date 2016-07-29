@@ -12,7 +12,7 @@
       <key>FEED_URL</key>
       <string>https://static.hightail.com/plugins/HightailExpress.dmg</string>
       <key>NAME</key>
-      <string>Hightail</string>
+      <string>Hightail Express</string>
     </dict>
 
   <key>MinimumVersion</key>
