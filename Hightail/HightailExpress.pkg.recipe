@@ -5,7 +5,7 @@
   <key>Description</key>
   <string>Attempting to write my own recipe for Hightail pkg part</string>
   <key>Identifier</key>
-  <string>com.github.impvaderbeeatch.pkg.hightail</string>
+  <string>com.github.impvaderbeeatch.pkg.hightailexpress</string>
 
   <key>Input</key>
     <dict>
@@ -15,7 +15,7 @@
   <key>MinimumVersion</key>
   <string>0.6.1</string>
   <key>ParentRecipe</key>
-  <string>com.github.impvaderbeeatch.download.hightail</string>
+  <string>com.github.impvaderbeeatch.download.hightailexpress</string>
   <key>Process</key>
   <array>
       <dict>
