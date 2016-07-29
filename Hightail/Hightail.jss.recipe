@@ -50,7 +50,7 @@ https://github.com/homebysix/auto-update-magic</string>
 						<key>smart</key>
 						<true/>
 						<key>template_path</key>
-						<string>%RECIPE_DIR%/SmartGroupTemplate.xml (DEFAULT)</string>
+						<string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
 					</dict>
 				</array>
 				<key>policy_category</key>
