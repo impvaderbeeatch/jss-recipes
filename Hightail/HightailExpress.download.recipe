@@ -5,7 +5,7 @@
   <key>Description</key>
   <string>Downloads the latest version of Hightail Express</string>
   <key>Identifier</key>
-  <string>com.github.impvaderbeeatch.download.hightail</string>
+  <string>com.github.impvaderbeeatch.download.hightailexpress</string>
 
   <key>Input</key>
     <dict>
