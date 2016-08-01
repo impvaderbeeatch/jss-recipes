@@ -28,7 +28,7 @@ yet in a released version. It should still download and unzip properly if is it 
 		<key>DESCRIPTION</key>
 		<string>The Unarchiver is a much more capable replacement for "Archive Utility.app", the built-in archive unpacker program on Mac OS X.</string>
 		<key>ICON</key>
-		<string>%RECIPE_DIR%/TheUnarchiver.png</string>
+		<string>%RECIPE_DIR%/The Unarchiver.png</string>
 		<key>NAME</key>
 		<string>The Unarchiver</string>
 		<key>POLICY_CATEGORY</key>
