@@ -21,7 +21,7 @@ https://github.com/homebysix/auto-update-magic</string>
 		<key>CATEGORY</key>
 		<string>Applications</string>
 		<key>DESCRIPTION</key>
-		<string>Long time ago, in Web 1.0, there was Netscape...</string>
+		<string>Just another unessecarrily over-complicated FTP app...</string>
 		<key>ICON</key>
 		<string>%RECIPE_DIR%/FileZilla.png</string>
 		<key>NAME</key>
