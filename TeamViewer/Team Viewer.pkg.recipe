@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>com.gitbub.impvaderbeeatch.jss.teamviewer</string>
+	<string>com.gitbub.impvaderbeeatch.pkg.teamviewer</string>
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>
