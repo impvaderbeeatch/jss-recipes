@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>com.github.impvaderbeeatch.jss.adpassmon</string>
+	<key>Input</key>
+	<dict>
+		<key>BUNDLE_ID</key>
+		<string>org.pmbuko.ADPassMon</string>
+		<key>CATEGORY</key>
+		<string>Applications</string>
+		<key>GITHUB_REPO</key>
+		<string>macmule/ADPassMon</string>
+		<key>GROUP_NAME</key>
+		<string>SW: %NAME% Candidate</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
+		<key>NAME</key>
+		<string>ADPassMon</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Install Software</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>%RECIPE_DIR%/pt.add.self.service.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Active Directory Password Monitor menulet app for OS X 10.8+.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>ADPassMon.png</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.ADPassMon</string>
+</dict>
+</plist>
