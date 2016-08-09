@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>com.github.impvaderbeeatch.jss.dr.google</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Applications</string>
+		<key>DOWNLOAD_URL</key>
+		<string>https://dl.google.com/drive/installgoogledrive.dmg</string>
+		<key>GROUP_NAME</key>
+		<string>SW: %NAME% Candidate</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
+		<key>NAME</key>
+		<string>Google Drive</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Install Software</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>%RECIPE_DIR%/pt.add.self.service.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Get access to files anywhere through secure cloud storage and file backup for your photos, videos, files and more with Google Drive.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>Google Drive.png</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.GoogleDrive</string>
+</dict>
+</plist>
