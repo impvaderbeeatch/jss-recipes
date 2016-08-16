@@ -32,7 +32,7 @@ yet in a released version. It should still download and unzip properly if is it 
 		<key>NAME</key>
 		<string>The Unarchiver</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Install Software</string>
+		<string>Install Apps</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>%RECIPE_DIR%/pt.add.self.service.xml</string>
 	</dict>
