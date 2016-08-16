@@ -27,7 +27,7 @@ https://github.com/homebysix/auto-update-magic</string>
 		<key>NAME</key>
 		<string>Hightail Express</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Install Software</string>
+		<string>Install Apps</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>%RECIPE_DIR%/pt.add.self.service.xml</string>
 	</dict>
