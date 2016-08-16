@@ -13,7 +13,7 @@
 		<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
 		<false/>
 		<key>GROUP_NAME</key>
-		<string>SW: %NAME% Candidates</string>
+		<string>SW: %NAME% Candidate</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
 		<key>ICON</key>
