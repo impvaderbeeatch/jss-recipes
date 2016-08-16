@@ -17,7 +17,7 @@
 		<key>NAME</key>
 		<string>Google Drive</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Install Software</string>
+		<string>Install Apps</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>%RECIPE_DIR%/pt.add.self.service.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
