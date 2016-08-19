@@ -43,7 +43,7 @@ application to the user who performed the install. Then, uploads to the JSS.</st
 			<key>Arguments</key>
 			<dict>
 				<key>pkg_path</key>
-				<string>%RECIPE_DIR%</string>
+				<string>%RECIPE_DIR%/com.github.impvaderbeeatch.jss.bluejeansapp/BlueJeans*.pkg</string>
 				<key>category</key>
 				<string>%CATEGORY%</string>
 				<key>groups</key>
