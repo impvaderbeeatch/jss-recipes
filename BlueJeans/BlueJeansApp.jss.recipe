@@ -25,7 +25,7 @@ application to the user who performed the install. Then, uploads to the JSS.</st
 		<key>DESCRIPTION</key>
 		<string>BlueJeans app is the WK prefered app for all your video conferencing needs!!</string>
 		<key>ICON</key>
-		<string>%RECIPE_DIR%/BluejeansApp.png</string>
+		<string>%RECIPE_DIR%/BlueJeans.png</string>
 		<key>NAME</key>
 		<string>BlueJeans</string>
 		<key>POLICY_CATEGORY</key>
