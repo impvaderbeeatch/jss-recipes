@@ -31,7 +31,7 @@ application to the user who performed the install. Then, uploads to the JSS.</st
 		<key>POLICY_CATEGORY</key>
 		<string>Install Apps</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>%RECIPE_DIR%/pt.add.self.service.xml </string>
+		<string>%RECIPE_DIR%/pt.add.self.service.xml</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.3.1</string>
