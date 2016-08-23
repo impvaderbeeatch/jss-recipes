@@ -22,7 +22,7 @@
 		<key>POLICY_CATEGORY</key>
 		<string>WK Custom</string> <!-- I changed this -->
 		<key>POLICY_TEMPLATE</key>
-		<string>%RECIPE_DIR%/pt.adpassmon.xml </string> <!-- I changed this -->
+		<string>%RECIPE_DIR%/pt.adpassmon.xml</string> <!-- I changed this -->
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.5.0</string>
@@ -43,7 +43,7 @@
 						<key>smart</key>
 						<true/>
 						<key>template_path</key>
-						<string>%RECIPE_DIR%/sg.adpassmon.xml </string> <!-- I changed this -->
+						<string>%RECIPE_DIR%/sg.adpassmon.xml</string> <!-- I changed this -->
 					</dict>
 				</array>
 				<key>policy_category</key>
