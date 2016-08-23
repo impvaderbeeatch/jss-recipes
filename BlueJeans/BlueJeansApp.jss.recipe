@@ -42,12 +42,8 @@ application to the user who performed the install. Then, uploads to the JSS.</st
 		<dict>
 			<key>Arguments</key>
 			<dict>
-			<!--	<key>pkg_path</key>
-				<string>%pkgroot%/Applications/%app_name%</string>
-			-->
 				<key>pkg_path</key>
-				%pkgroot%/Applications/%app_name%
-				
+				<string>%pkgroot%/Applications/%app_name%</string>
 				<key>category</key>
 				<string>%CATEGORY%</string>
 				<key>groups</key>
