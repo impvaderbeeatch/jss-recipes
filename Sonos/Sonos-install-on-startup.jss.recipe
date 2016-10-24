@@ -13,7 +13,7 @@
 		<key>GROUP_TEMPLATE</key>
 		<string>%RECIPE_DIR%/sgt.install-startup.xml</string>
 		<key>NAME</key>
-		<string>Sonos-needs-update</string>
+		<string>Sonos</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Install Apps</string>
 		<key>POLICY_TEMPLATE</key>
