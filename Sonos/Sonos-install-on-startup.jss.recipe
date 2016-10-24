@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>com.github.impvaderbeeatch.jss.install-on-startup.sonos</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Applications</string>
+		<key>GROUP_NAME</key>
+		<string>SW: %NAME% needs update</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>%RECIPE_DIR%/sgt.install-startup.xml</string>
+		<key>NAME</key>
+		<string>Sonos needs update</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Install Apps</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>%RECIPE_DIR%/pt.install.on.startup.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Control software for the Sonos Music System.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>Sonos.png</string>
+		<key>USER_AGENT</key>
+		<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/536.28.10 (KHTML, like Gecko) Version/6.0.3 Safari/536.28.10</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.Sonos</string>
+</dict>
+</plist>
