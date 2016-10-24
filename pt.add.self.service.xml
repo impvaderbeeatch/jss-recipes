@@ -5,9 +5,9 @@
             <id>%SITE_ID%</id>
             <name>%SITE_NAME%</name>
         </site> -->
-        <name>%PROD_NAME%</name>
-        <enabled>true</enabled>
-        <trigger>none</trigger> <!-- Pat added this -->
+        <name>Gimme %PROD_NAME%</name>
+        <enabled>false</enabled>
+        <trigger>none</trigger>
         <frequency>Ongoing</frequency>
         <category>
             <name>%POLICY_CATEGORY%</name>
