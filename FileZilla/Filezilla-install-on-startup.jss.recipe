@@ -35,7 +35,7 @@
 				<array>
 					<dict>
 						<key>name</key>
-						<string>SW: FileZilla Candidate</string>
+						<string>SW: FileZilla needs update</string>
 						<key>smart</key>
 						<true/>
 						<key>template_path</key>
