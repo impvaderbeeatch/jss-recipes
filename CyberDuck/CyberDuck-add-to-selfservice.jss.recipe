@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>com.github.impvaderbeeatch.jss.cyberduck</string>
+	<string>com.github.impvaderbeeatch.jss.add-cyberduck</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -13,7 +13,7 @@
 		<key>GROUP_NAME</key>
 		<string>SW: %NAME% Candidate</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
+		<string>%RECIPE_DIR%/sgt.self-service.xml</string>
 		<key>ICON</key>
 		<string>%RECIPE_DIR%/Cyberduck.png</string>
 		<key>NAME</key>
