@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>com.github.impvaderbeeatch.jss.install-cyberduck</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Applications</string>
+		<key>DESCRIPTION</key>
+		<string>Cyberduck is a open-source and easy to use FTP/FTP-TLS/SFTP browser for the Mac.</string>
+		<key>GROUP_NAME</key>
+		<string>SW: %NAME% needs update</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>%RECIPE_DIR%/sgt.install-startup.xml</string>
+		<key>ICON</key>
+		<string>%RECIPE_DIR%/Cyberduck.png</string>
+		<key>NAME</key>
+		<string>Cyberduck</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Install Apps</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>%RECIPE_DIR%/pt.install.on.startup.xml</string>
+		<key>SPARKLE_FEED_URL</key>
+		<string>https://version.cyberduck.io/changelog.rss</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.rtrouton.jss.Cyberduck</string>
+</dict>
+</plist>
