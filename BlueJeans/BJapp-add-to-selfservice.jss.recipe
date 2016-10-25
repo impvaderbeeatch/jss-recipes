@@ -2,22 +2,9 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Comment</key>
-	<string>
-This AutoPkg recipe was created using JSSRecipeCreator: 
-https://github.com/sheagcraig/JSSRecipeCreator
-
-It is meant to be used with JSSImporter: 
-https://github.com/sheagcraig/JSSImporter
-
-For tips on integrating JSSImporter into your Casper environment, check out Auto Update Magic:
-https://github.com/homebysix/auto-update-magic</string>
-	<key>Description</key>
-	<string>Package recipe for Bluejeans app. This recipe replaces a postinstall script 
-with a neutered version; the original attempts to change the ownership of the installed
-application to the user who performed the install. Then, uploads to the JSS.</string>
+	
 	<key>Identifier</key>
-	<string>com.github.impvaderbeeatch.jss.bluejeansapp</string>
+	<string>com.github.impvaderbeeatch.jss.add-bluejeansapp</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -52,7 +39,7 @@ application to the user who performed the install. Then, uploads to the JSS.</st
 						<key>smart</key>
 						<true/>
 						<key>template_path</key>
-						<string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
+						<string>%RECIPE_DIR%/sgt.self-service.xml</string>
 					</dict>
 				</array>
 				<key>policy_category</key>
