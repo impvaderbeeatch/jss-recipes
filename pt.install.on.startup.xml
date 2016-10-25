@@ -9,7 +9,7 @@
         -->
         
         <name>Update %PROD_NAME%</name>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
         <trigger>Startup</trigger>
         <frequency>Ongoing</frequency>
         <category>
