@@ -8,7 +8,7 @@
         </site>
         -->
         
-        <name>%PROD_NAME% needs update</name>
+        <name>Update %PROD_NAME%</name>
         <enabled>false</enabled>
         <trigger>Startup</trigger>
         <frequency>Ongoing</frequency>
