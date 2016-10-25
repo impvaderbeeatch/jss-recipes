@@ -6,7 +6,7 @@
             <name>%SITE_NAME%</name>
         </site> -->
         <name>Gimme %PROD_NAME%</name>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
         <trigger>none</trigger>
         <frequency>Ongoing</frequency>
         <category>
