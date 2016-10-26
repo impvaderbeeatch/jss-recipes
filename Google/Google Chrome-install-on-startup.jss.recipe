@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>com.github.impvaderbeeatch.jss.ch.install-google</string>
+	<string>com.github.impvaderbeeatch.jss.install-ch.google</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
