@@ -13,7 +13,7 @@
 		<key>CATEGORY</key>
 		<string>Applications</string>
 		<key>GROUP_NAME</key>
-		<string>SW: %NAME% Candidate</string>
+		<string>SW: %NAME% needs update</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>%RECIPE_DIR%/sgt.install-startup.xml</string>
 		<key>NAME</key>
