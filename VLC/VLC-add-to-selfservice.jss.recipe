@@ -2,8 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Comment</key>
+	<string>This recipe will add to Self Service</string>
+
+
 	<key>Identifier</key>
-	<string>com.github.impvaderbeeatch.jss.vlc</string>
+	<string>com.github.impvaderbeeatch.jss.add-vlc</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -11,7 +15,7 @@
 		<key>GROUP_NAME</key>
 		<string>SW: %NAME% Candidate</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
+		<string>%RECIPE_DIR%/sgt.self-service.xml</string>
 		<key>NAME</key>
 		<string>VLC</string>
 		<key>POLICY_CATEGORY</key>
