@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Comment</key>
+	<string>This recipe will install on Startup</string>
+	
+	<key>Description</key>
+	<string>Downloads the latest version of Slack and makes a pkg of it Then, uploads to the JSS.</string>
+	<key>Identifier</key>
+	<string>com.github.impvaderbeeatch.jss.install-slack</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Applications</string>
+		<key>DESCRIPTION</key>
+		<string>We are Slackers now. Slackers are cool!!</string>
+		<key>ICON</key>
+		<string>%RECIPE_DIR%/Slack.png</string>
+		<key>NAME</key>
+		<string>Slack</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Install Apps</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>%RECIPE_DIR%/pt.install.on.startup.xml</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.2.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.killahquam.pkg.slack</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>category</key>
+				<string>%CATEGORY%</string>
+				<key>groups</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>SW: Slack needs update</string>
+						<key>smart</key>
+						<true/>
+						<key>template_path</key>
+        		<string>%RECIPE_DIR%/sgt.install-startup.xml</string>
+					</dict>
+				</array>
+				<key>policy_category</key>
+				<string>%POLICY_CATEGORY%</string>
+				<key>policy_template</key>
+				<string>%POLICY_TEMPLATE%</string>
+				<key>prod_name</key>
+				<string>%NAME%</string>
+				<key>self_service_description</key>
+				<string>%DESCRIPTION%</string>
+				<key>self_service_icon</key>
+				<string>%ICON%</string>
+			</dict>
+			<key>Processor</key>
+			<string>JSSImporter</string>
+		</dict>
+	</array>
+</dict>
+</plist>
