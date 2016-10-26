@@ -3,19 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>Comment</key>
-	<string>
-This AutoPkg recipe was created using JSSRecipeCreator:
-https://github.com/sheagcraig/JSSRecipeCreator
-
-It is meant to be used with JSSImporter:
-https://github.com/sheagcraig/JSSImporter
-
-For tips on integrating JSSImporter into your Casper environment, check out Auto Update Magic:
-https://github.com/homebysix/auto-update-magic</string>
+	<string>This recipe will add to Self Service</string>
+	
 	<key>Description</key>
 	<string>Downloads the latest version of Slack and makes a pkg of it Then, uploads to the JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.impvaderbeeatch.jss.slack</string>
+	<string>com.github.impvaderbeeatch.jss.add-slack</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -50,7 +43,7 @@ https://github.com/homebysix/auto-update-magic</string>
 						<key>smart</key>
 						<true/>
 						<key>template_path</key>
-						<string>%RECIPE_DIR%/SmartGroupTemplate.xml</string>
+						<string>%RECIPE_DIR%/sgt.self-service.xml</string>
 					</dict>
 				</array>
 				<key>policy_category</key>
