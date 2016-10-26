@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>com.github.impvaderbeeatch.jss.install-skype</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Applications</string>
+		<key>Comment</key>
+		<string>Note: PlistReader without variable injection in AutoPkg requires setting "version" input key to an empty string, as below.</string>
+		<key>DOWNLOAD_URL</key>
+		<string>https://www.skype.com/go/getskype-macosx.dmg</string>
+		<key>GROUP_NAME</key>
+		<string>SW: %NAME% needs update</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>%RECIPE_DIR%/sgt.install-startup.xml</string>
+		<key>NAME</key>
+		<string>Skype</string>
+		<key>OS_REQUIREMENTS</key>
+		<string>10.11.x,10.10.x,10.9.x</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Install Apps</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>%RECIPE_DIR%/pt.install.on.startup.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Skype is a freemium voice over IP service and instant messaging client, currently developed by Microsoft-owned Skype Technologies.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>Skype.png</string>
+		<key>version</key>
+		<string></string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.Skype</string>
+</dict>
+</plist>
