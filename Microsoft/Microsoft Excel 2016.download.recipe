@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+
+    <key>Comment</key>
+    <string>This recipe was created by Alan McCrossen and modified by Pat Camporeale to suit AMS office needs.</string>
+
     <key>Description</key>
     <string>Downloads the latest Excel 2016 multilingual update pkg,
 and appends the version to the end of the filename.
@@ -25,7 +29,7 @@ version of the application required for the delta update, which can be
 used by other processors in a child recipe.
 </string>
     <key>Identifier</key>
-    <string>com.github.mfcalan.download.MSExcel2016</string>
+    <string>com.github.impvaderbeeatch.download.MSExcel2016</string>
     <key>MinimumVersion</key>
     <string>0.4.2</string>
     <key>Input</key>
@@ -62,7 +66,7 @@ used by other processors in a child recipe.
             <key>Arguments</key>
             <dict>
                 <key>filename</key>
-                <string>autopkg.%NAME%-%version%.pkg</string>
+                <string>%NAME%-%version%.pkg</string>
             </dict>
         </dict>
         <dict>
