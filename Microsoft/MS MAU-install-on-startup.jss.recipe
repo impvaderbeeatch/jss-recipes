@@ -31,7 +31,8 @@
 	<key>MinimumVersion</key>
 	<string>0.4.2</string>
 	<key>ParentRecipe</key>
-    	<string>com.github.impvaderbeeatch.download.msmau</string>
+	<string>com.github.autopkg.arubdesu.pkg.MAU</string>
+<!--    <string>com.github.impvaderbeeatch.download.msmau</string> -->
 	<key>Process</key>
 	<array>
 		<dict>
