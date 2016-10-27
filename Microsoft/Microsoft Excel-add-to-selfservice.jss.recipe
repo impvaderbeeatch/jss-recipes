@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+
+	<key>Comment</key>
+	<string>This recipe was created by Alan McCrossen and modified by Pat Camporeale to suit AMS office needs.</string>
+
 	<key>Description</key>
 	<string>Downloads the latest Excel 2016 multilingual update pkg,
 		and appends the version to the end of the filename.
@@ -14,30 +18,34 @@
 		VERSION currently only supports 'latest'.
 		Then, uploads to the JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.mfcalan.jss.MicrosoftExcel</string>
+	<string>com.github.impvaderbeeatch.jss.add-msexcel2016</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>MICROSOFT</string>
+		<string>Applications</string>
+		<key>DESCRIPTION</key>
+		<string>MS Office Excel 2016</string>
+		<key>ICON</key>
+		<string>%RECIPE_DIR%/PowerPoint.png</string>
 		<key>GROUP_NAME</key>
-		<string>Computers: PDX All Managed Clients</string>
+		<string>SW: MS Excel 2016 Candidate</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>SmartGroupAllManagedClients.xml</string>
+    		<string>%RECIPE_DIR%/sgt.self-service.xml</string>
 		<key>NAME</key>
 		<string>Microsoft Excel</string>
 		<key>OS_REQUIREMENTS</key>
 		<string>10.12.x,10.11.x,10.10.x</string>
 		<key>POLICY_CATEGORY</key>
-		<string>MICROSOFT</string>
+		<string>Install Apps</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>Microsoft Excel Policy Template.xml</string>
+    		<string>%RECIPE_DIR%/pt.add.self.service.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Microsoft Excel is a spreadsheet application developed by Microsoft. It features calculation, graphing tools, pivot tables, and a macro programming language called Visual Basic for Applications.</string>
+		<string>Microsoft Excel is a spreadsheet application that features calculation, graphing tools, pivot tables, and a macro programming language called Visual Basic for Applications.</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.2</string>
 	<key>ParentRecipe</key>
-	<string>com.github.mfcalan.download.MSExcel2016</string>
+	<string>com.github.impvaderbeeatch.download.MSExcel2016</string>
 	<key>Process</key>
 	<array>
 		<dict>
@@ -100,7 +108,9 @@
 				<key>prod_name</key>
 				<string>%NAME%</string>
 				<key>self_service_description</key>
-				<string>%SELF_SERVICE_DESCRIPTION% Install version %version%.</string>
+				<string>%SELF_SERVICE_DESCRIPTION%</string>
+				<key>self_service_icon</key>
+				<string>%ICON%</string>
 			</dict>
 			<key>Processor</key>
 			<string>JSSImporter</string>
