@@ -46,7 +46,7 @@
 	<key>MinimumVersion</key>
 	<string>0.4.2</string>
 	<key>ParentRecipe</key>
-	<string>com.github.mfcalan.download.MSPowerPoint2016</string>
+	<string>com.github.impvaderbeeatch.download.MSPowerPoint2016</string>
 	
 	<key>Process</key>
 	<array>
