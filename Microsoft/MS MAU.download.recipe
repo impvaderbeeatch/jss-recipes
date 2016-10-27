@@ -28,7 +28,7 @@ version of the application required for the delta update, which can be
 used by other processors in a child recipe.
 </string>
     <key>Identifier</key>
-    <string>com.github.impvaderbeeatch.download.MSAutoUpdate</string>
+    <string>com.github.impvaderbeeatch.download.msmau</string>
     <key>MinimumVersion</key>
     <string>0.4.2</string>
     <key>Input</key>
