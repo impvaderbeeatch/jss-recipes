@@ -15,7 +15,7 @@
 		<key>CATEGORY</key>
 		<string>Applications</string>
     		<key>DESCRIPTION</key>
-		<string>Microsoft AutoUpdate</string>
+		<string>Microsoft AutoUpdate is the app that keeps Office up-to-date on Macs.</string>
 		<key>GROUP_NAME</key>
 		<string>SW: MS AutoUpdate needs update</string>
 		<key>GROUP_TEMPLATE</key>
