@@ -9,19 +9,19 @@
 	<key>Description</key>
 	<string>Finds latest Microsoft AutoUpdate (MAU) installer, downloads the pkg and copies it to the JSS.</string>
 	<key>Identifier</key>
-  <string>com.github.impvaderbeeatch.jss.install-mau</string>
+  	<string>com.github.impvaderbeeatch.jss.install-mau</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
 		<string>Applications</string>
-    <key>DESCRIPTION</key>
-		<string>MS Office Updater</string>
+    		<key>DESCRIPTION</key>
+		<string>Microsoft AutoUpdate</string>
 		<key>GROUP_NAME</key>
-		<string>SW: MS MAU needs update</string>
+		<string>SW: MS AutoUpdate needs update</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>%RECIPE_DIR%/sgt.install-startup.xml</string>
 		<key>NAME</key>
-		<string>MAU</string>
+		<string>Microsoft AutoUpdate</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Install Apps</string>
 		<key>POLICY_TEMPLATE</key>
@@ -31,7 +31,7 @@
 	<key>MinimumVersion</key>
 	<string>0.4.2</string>
 	<key>ParentRecipe</key>
-  <string>com.github.impvaderbeeatch.pkg.mau</string>
+  	<string>com.github.impvaderbeeatch.pkg.mau</string>
 	<key>Process</key>
 	<array>
 		<dict>
