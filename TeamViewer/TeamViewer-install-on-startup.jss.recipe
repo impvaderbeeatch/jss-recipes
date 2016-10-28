@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<plist version="1.0">
+<dict>
+
+	<key>Comment</key>
+	<string>Download the latyest TeamViewer app and installs on David's nad Pat's computers only.</string>
+	
+	<key>Identifier</key>
+	<string>com.github.impvaderbeeatch.jss.install-TeamViewer</string>
+	
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Applications</string>
+		<key>DESCRIPTION</key>
+		<string>TeamViewer app is our free VNC</string>
+		<key>NAME</key>
+		<string>TeamViewer</string>
+		<key>POLICY_CATEGORY</key>
+		<string>AMS Custom</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>%RECIPE_DIR%/pt.install.on.startup.xml</string>
+	</dict>
+
+	<key>MinimumVersion</key>
+	<string>0.2.5</string>
+	<key>ParentRecipe</key>
+	<string>com.justinrummel.pkg.TeamViewer</string>
+	
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>category</key>
+				<string>%CATEGORY%</string>
+				<key>groups</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>SW: TeamViewer needs update</string>
+						<key>smart</key>
+						<true/>
+						<key>template_path</key>
+						<string>%RECIPE_DIR%/StaticGroupTemplate.xml</string>
+					</dict>
+				</array>
+				<key>policy_category</key>
+				<string>%POLICY_CATEGORY%</string>
+				<key>policy_template</key>
+				<string>%POLICY_TEMPLATE%</string>
+				<key>prod_name</key>
+				<string>%NAME%</string>
+				<key>version</key>
+				<string>%version%</string>
+				<key>prod_name</key>
+				<string>%NAME%</string>
+			</dict>
+      
+			<key>Processor</key>
+			<string>JSSImporter</string>
+		</dict>
+	</array>
+	
+</dict>
+</plist>
