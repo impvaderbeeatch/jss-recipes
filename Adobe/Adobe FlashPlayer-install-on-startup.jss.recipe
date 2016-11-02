@@ -36,15 +36,6 @@
             <dict>
                 <key>Arguments</key>
                 <dict>
-                <key>category</key>
-				<string>%CATEGORY%</string>
-				<key>extension_attributes</key>
-				<array>
-				    <dict>
-				    <key>ext_attribute_path</key>
-				    <string>%RECIPE_DIR%/Adobe Flash PlayerExtensionAttribute.xml</string>
-				    </dict>
-				</array>
                     <key>prod_name</key>
                     <string>%NAME%</string>
                     <key>category</key>
