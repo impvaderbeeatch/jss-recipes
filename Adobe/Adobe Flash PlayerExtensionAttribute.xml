@@ -5,7 +5,7 @@
 	<input_type>
 		<type>script</type>
 		<platform>Mac</platform>
-		<script>#!/bin/bash
+		<scriptContentsMac>#!/bin/bash
 
 ExtensionVersion=""
 
@@ -19,7 +19,7 @@ fi
 
 echo "<result>$ExtensionVersion</result>"
 
-exit 0</script>
+exit 0</scriptContentsMac>
 	</input_type>
 	<inventory_display>Extension Attributes</inventory_display>
 	<recon_display>Extension Attributes</recon_display>
