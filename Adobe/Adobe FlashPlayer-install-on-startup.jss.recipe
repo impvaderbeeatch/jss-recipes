@@ -1,66 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-        <key>Description</key>
-        <string>Downloads Adobe Flash Player installer and extracts the embedded package, uploads to JSS.</string>
-        <key>Identifier</key>
-        <string>com.github.impvaderbeeatch.jss.install-adobeflashplayer</string>
-        <key>Input</key>
-        <dict>
-            <key>NAME</key>
-            <string>Adobe Flash Player</string>
-            <key>CATEGORY</key>
-            <string>Applications</string>
-            <key>POLICY_CATEGORY</key>
-            <string>Install Apps</string> 
-<!--        <key>ICON</key>
-		        <string></string> -->
-            <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/pt.install.on.startup.xml</string>
-            <key>DESCRIPTION</key>
-            <string>Adobe Flash Player.. which never stops with the fucken updates.</string>
-            <key>GROUP_NAME</key>
-            <string>SW: FlashPlayer needs update</string>
-            <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/sgt.install-startup.xml</string>
-        </dict>
-        <key>MinimumVersion</key>
-        <string>0.4.0</string>
-        <key>ParentRecipe</key>
-        <string>com.github.autopkg.pkg.FlashPlayerExtractPackage</string>
-        <key>Process</key>
-        <array>
-            <dict>
-                <key>Arguments</key>
-                <dict>
-                    <key>prod_name</key>
-                    <string>%NAME%</string>
-                    <key>category</key>
-                    <string>%CATEGORY%</string>
-                    <key>policy_category</key>
-                    <string>%POLICY_CATEGORY%</string>
-                    <key>policy_template</key>
-                    <string>%POLICY_TEMPLATE%</string>
-<!--                <key>self_service_icon</key>
-                    <string>%ICON%</string>
-                    <key>self_service_description</key> -->
-                    <string>%DESCRIPTION%</string>
-                    <key>groups</key>
-                    <array>
-                        <dict>
-                            <key>name</key>
-                            <string>%GROUP_NAME%</string>
-                            <key>smart</key>
-                            <true/>
-                            <key>template_path</key>
-                            <string>%GROUP_TEMPLATE%</string>
-                        </dict>
-                    </array>
-                </dict>
-                <key>Processor</key>
-                <string>JSSImporter</string>
-            </dict>
-        </array>
-    </dict>
+<dict>
+
+	<key>Identifier</key>
+	<string>com.github.impvaderbeeatch.jss.install-adobeflashplayer</string>
+	<key>Description</key>
+	<string>Downloads Adobe Flash Player installer and extracts the embedded package, uploads to JSS.</string>
+
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Applications</string>
+		<key>DESCRIPTION</key>
+		<string>Adobe Flash Player.. which never stops with the fucken updates.</string>
+		<key>NAME</key>
+		<string>Adobe Flash Player</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Install Apps</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>%RECIPE_DIR%/pt.install.on.startup.xml</string>
+	</dict>
+
+	<key>MinimumVersion</key>
+	<string>0.4.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.pkg.FlashPlayerExtractPackage</string>
+
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>groups</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>SW: FlashPlayer needs update</string>
+						<key>smart</key>
+						<true/>
+						<key>template_path</key>
+						<string>%RECIPE_DIR%/sgt.install-startup.xml</string>
+					</dict>
+				</array>
+				<key>policy_category</key>
+				<string>%POLICY_CATEGORY%</string>
+				<key>policy_template</key>
+				<string>%POLICY_TEMPLATE%</string>
+				<key>prod_name</key>
+				<string>%NAME%</string>
+			</dict>
+
+			<key>Processor</key>
+			<string>JSSImporter</string>
+		</dict>
+	</array>
+</dict>
 </plist>
