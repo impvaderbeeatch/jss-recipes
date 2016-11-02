@@ -1,12 +1,12 @@
-<extensionAttribute>
-
-	<displayName>%PROD_NAME%</displayName>
+<computer_extension_attribute>
+	<name>%PROD_NAME%</name>
 	<description>Returns the installed version of %PROD_NAME%</description>
 	<data_type>string</data_type>
-	<scriptContentsMac>#!/bin/bash
+	<input_type>
+		<type>script</type>
+		<platform>Mac</platform>
+		<script>#!/bin/bash
 
-#Extension Attribute checks to display Adobe Flash Player Version number
-		
 ExtensionVersion=""
 
 if [ -f /Library/Internet\ Plug-Ins/Flash\ Player.plugin/Contents/Info.plist ]; then
@@ -19,10 +19,8 @@ fi
 
 echo "<result>$ExtensionVersion</result>"
 
-exit 0</scriptContentsMac>
-	<input_type>
+exit 0</script>
+	</input_type>
 	<inventory_display>Extension Attributes</inventory_display>
 	<recon_display>Extension Attributes</recon_display>
-	</input_type>
-<scriptContentsWindows/>
-</extensionAttribute>
+</computer_extension_attribute>
