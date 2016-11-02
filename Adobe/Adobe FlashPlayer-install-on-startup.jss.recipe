@@ -17,7 +17,7 @@
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/pt.install.on.startup.xml</string>
             <key>ICON</key>
-            <string></string>
+            <string>%RECIPE_DIR%/Adobe Flash Player.png</string>
             <key>DESCRIPTION</key>
             <string>Install the latest version of Adobe Flash Player.</string>
             <key>GROUP_NAME</key>
