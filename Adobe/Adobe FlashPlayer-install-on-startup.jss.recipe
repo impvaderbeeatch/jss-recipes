@@ -23,7 +23,7 @@
             <key>GROUP_NAME</key>
             <string>SW: Adobe FlashPlayer needs update</string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/sgt.install-startup.xml</string>
+            <string>%RECIPE_DIR%/Adobe Flash PlayerSmartGroupTemplate.xml</string>
         </dict>
         
         <key>MinimumVersion</key>
@@ -36,6 +36,15 @@
             <dict>
                 <key>Arguments</key>
                 <dict>
+                <key>category</key>
+				<string>%CATEGORY%</string>
+				<key>extension_attributes</key>
+				<array>
+				    <dict>
+				    <key>ext_attribute_path</key>
+				    <string>%RECIPE_DIR%/Adobe Flash PlayerExtensionAttribute.xml</string>
+				    </dict>
+				</array>
                     <key>prod_name</key>
                     <string>%NAME%</string>
                     <key>category</key>
@@ -44,10 +53,6 @@
                     <string>%POLICY_CATEGORY%</string>
                     <key>policy_template</key>
                     <string>%POLICY_TEMPLATE%</string>
-                    <key>self_service_icon</key>
-                    <string>%ICON%</string>
-                    <key>self_service_description</key>
-                    <string>%DESCRIPTION%</string>
                     <key>groups</key>
                     <array>
                         <dict>
