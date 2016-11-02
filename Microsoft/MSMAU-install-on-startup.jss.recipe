@@ -9,7 +9,7 @@
 	<key>Description</key>
 	<string>Finds latest Microsoft AutoUpdate (MAU) installer, downloads the pkg and copies it to the JSS.</string>
 	<key>Identifier</key>
-  	<string>com.github.impvaderbeeatch.jss.install-mau</string>
+  	<string>com.github.impvaderbeeatch.jss.install-msmau2016</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
