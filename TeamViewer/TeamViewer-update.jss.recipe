@@ -42,7 +42,7 @@
 						<key>name</key>
 						<string>SW: TeamViewer in IT needs update</string>
 						<key>smart</key>
-						<false/>
+						<true/>
 						<key>template_path</key>
 						<string>%RECIPE_DIR%/StaticGroupTemplate.xml</string>
 					</dict>
