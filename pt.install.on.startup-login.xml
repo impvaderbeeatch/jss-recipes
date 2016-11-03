@@ -10,8 +10,7 @@
         
         <name>Update %PROD_NAME%</name>
         <enabled>false</enabled>
-        <trigger>Startup</trigger>
-        <trigger>Login</trigger>
+        <trigger>Startup, Login</trigger>
         <frequency>Ongoing</frequency>
         <category>
             <name>%POLICY_CATEGORY%</name>
