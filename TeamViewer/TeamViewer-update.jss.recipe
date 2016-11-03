@@ -5,10 +5,10 @@
 <dict>
 
 	<key>Comment</key>
-	<string>Download the latyest TeamViewer app and installs on David's nad Pat's computers only.</string>
+	<string>This recipe will update TeamViewer app on Multi-triggers.</string>
 	
 	<key>Identifier</key>
-	<string>com.github.impvaderbeeatch.jss.install-TeamViewer</string>
+	<string>com.github.impvaderbeeatch.jss.update-TeamViewer</string>
 	
 	<key>Input</key>
 	<dict>
@@ -19,9 +19,9 @@
 		<key>NAME</key>
 		<string>TeamViewer</string>
 		<key>POLICY_CATEGORY</key>
-		<string>AMS Custom</string>
+		<string>Update Installed Apps</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>%RECIPE_DIR%/pt.install.on.startup.xml</string>
+		<string>%RECIPE_DIR%/update.teamviewer.pt.xml</string>
 	</dict>
 
 	<key>MinimumVersion</key>
