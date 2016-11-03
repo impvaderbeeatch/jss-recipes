@@ -40,9 +40,9 @@
 				<array>
 					<dict>
 						<key>name</key>
-						<string>SW: TeamViewer needs update</string>
+						<string>SW: TeamViewer in IT needs update</string>
 						<key>smart</key>
-						<true/>
+						<false/>
 						<key>template_path</key>
 						<string>%RECIPE_DIR%/StaticGroupTemplate.xml</string>
 					</dict>
