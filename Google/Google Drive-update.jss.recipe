@@ -2,8 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+
+	<key>Comment</key>
+	<string>This recipe will update Google Apps using Multi-triggers</string>
+
 	<key>Identifier</key>
-	<string>com.github.impvaderbeeatch.jss.install-dr.google</string>
+	<string>com.github.impvaderbeeatch.jss.update-dr.google</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -17,13 +21,10 @@
 		<key>NAME</key>
 		<string>Google Drive</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Install Apps</string>
+		<string>Update Installed Apps</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>%RECIPE_DIR%/pt.install.on.startup.xml</string>
-		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Get access to files anywhere through secure cloud storage and file backup for your photos, videos, files and more with Google Drive.</string>
-		<key>SELF_SERVICE_ICON</key>
-		<string>Google Drive.png</string>
+		<string>%RECIPE_DIR%/update.google.pt.xml</string>
+
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.jss-recipes.jss.GoogleDrive</string>
