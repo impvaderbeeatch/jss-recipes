@@ -1,14 +1,23 @@
 <policy>
     <general>
+        
         <!-- Enable ID or Name for a Site-based Policy
         <site>
             <id>%SITE_ID%</id>
             <name>%SITE_NAME%</name>
         </site>
         -->
-        <name>PI: %PROD_NAME%</name>
+                                    <!-- This Policy Template is for updating AD Pass Mon. -->
+
+        <name>Update %PROD_NAME%</name>
         <enabled>true</enabled>
-        <trigger>Startup</trigger>
+        <trigger>Event</trigger>
+        <trigger_checkin>true</trigger_checkin>
+        <trigger_enrollment_complete>false</trigger_enrollment_complete>
+        <trigger_login>true</trigger_login>
+        <trigger_logout>true</trigger_logout>
+        <trigger_network_state_changed>true</trigger_network_state_changed>
+        <trigger_startup>true</trigger_startup>
         <frequency>Ongoing</frequency>
         <category>
             <name>%POLICY_CATEGORY%</name>
@@ -23,13 +32,6 @@
     <scripts>
         <!--Scripts added by JSSImporter-->
     </scripts>
-    <!-- If you want to offer this in Self Service as well, uncomment below -->
-    <!--  <self_service>
-        <use_for_self_service>true</use_for_self_service>
-        <install_button_text>Install %VERSION%</install_button_text>
-        <self_service_description>%SELF_SERVICE_DESCRIPTION%</self_service_description>
-        </self_service>
-      -->
     <maintenance>
         <recon>true</recon>
     </maintenance>
