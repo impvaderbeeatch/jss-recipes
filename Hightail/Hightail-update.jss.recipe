@@ -2,11 +2,11 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	
-	<key>Description</key>
-	<string>Attempting to write my own recipe for Hightail jss</string>
+	<key>Comment</key>
+	<string>This recipe will update Hightail using Multi-triggers</string>
+
 	<key>Identifier</key>
-	<string>com.github.impvaderbeeatch.jss.install-hightailexpress</string>
+	<string>com.github.impvaderbeeatch.jss.update-hightailexpress</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -18,9 +18,9 @@
 		<key>NAME</key>
 		<string>Hightail Express</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Install Apps</string>
+		<string>Update Installed Apps</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>%RECIPE_DIR%/pt.install.on.startup.xml</string>
+		<string>%RECIPE_DIR%/update.hightail.pt.xml</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
@@ -41,7 +41,7 @@
 						<key>smart</key>
 						<true/>
 						<key>template_path</key>
-        		<string>%RECIPE_DIR%/sgt.install-startup.xml</string>
+        					<string>%RECIPE_DIR%/sgt.install-startup.xml</string>
 					</dict>
 				</array>
 				<key>policy_category</key>
@@ -50,11 +50,9 @@
 				<string>%POLICY_TEMPLATE%</string>
 				<key>prod_name</key>
 				<string>%NAME%</string>
-				<key>self_service_description</key>
-				<string>%DESCRIPTION%</string>
-				<key>self_service_icon</key>
-				<string>%ICON%</string>
+
 			</dict>
+			
 			<key>Processor</key>
 			<string>JSSImporter</string>
 		</dict>
