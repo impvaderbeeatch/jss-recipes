@@ -44,7 +44,7 @@
 						<key>smart</key>
 						<true/>
 						<key>template_path</key>
-						<string>%RECIPE_DIR%/StaticGroupTemplate.xml</string>
+						<string>%RECIPE_DIR%/sgt.teamviewer.xml</string>
 					</dict>
 				</array>
 				<key>policy_category</key>
