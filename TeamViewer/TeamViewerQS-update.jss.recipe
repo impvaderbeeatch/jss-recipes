@@ -6,8 +6,9 @@
 	
 	<key>Comment</key>
 	<string>Download the latest TeamViewerQS and uploads to our JSS</string>
+	
 	<key>Identifier</key>
-	<string>com.github.impvaderbeeatch.jss.install-TeamViewerQS</string>
+	<string>com.github.impvaderbeeatch.jss.update-TeamViewerQS</string>
 	
 	<key>Input</key>
 	<dict>
@@ -18,9 +19,9 @@
 		<key>NAME</key>
 		<string>TeamViewerQS</string>
 		<key>POLICY_CATEGORY</key>
-		<string>AMS Custom</string>
+		<string>Update Installed Apps</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>%RECIPE_DIR%/pt.install.on.startup.xml</string>
+		<string>%RECIPE_DIR%/update.teamviewerqs.pt.xml</string>
 	</dict>
 	
 	<key>MinimumVersion</key>
