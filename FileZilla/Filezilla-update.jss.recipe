@@ -20,7 +20,7 @@
 		<key>POLICY_CATEGORY</key>
 		<string>Update Installed Apps</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>%RECIPE_DIR%/pt.install.on.startup.xml</string>
+		<string>%RECIPE_DIR%/update.filezilla.pt.xml</string>
 	</dict>
 	
 	<key>MinimumVersion</key>
@@ -43,7 +43,7 @@
 						<key>smart</key>
 						<true/>
 						<key>template_path</key>
-        					<string>%RECIPE_DIR%/update.filezilla.pt.xml</string>
+        					<string>%RECIPE_DIR%/sgt.install-startup.xml</string>
 					</dict>
 				</array>
 				<key>policy_category</key>
