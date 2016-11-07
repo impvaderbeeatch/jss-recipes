@@ -40,7 +40,7 @@
 				<array>
 					<dict>
 						<key>name</key>
-						<string>SW: TeamViewer in IT needs update</string>
+						<string>SW: TeamViewer in IT</string>
 						<key>smart</key>
 						<true/>
 						<key>template_path</key>
