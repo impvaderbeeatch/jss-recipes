@@ -3,10 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>Comment</key>
-	<string>
-	</string>
+	<string>This recipe will update AD Pass Mon using Multi-triggers</string>
+	
 	<key>Description</key>
 	<string>Downloads the latest version of ADPassMon and creates a package. Then, uploads to the JSS.</string>
+	
 	<key>Identifier</key>
 	<string>com.github.impvaderbeeatch.jss.adpassmon</string>
 	<key>Input</key>
@@ -20,14 +21,16 @@
 		<key>NAME</key>
 		<string>ADPassMon</string>
 		<key>POLICY_CATEGORY</key>
-		<string>WK Custom</string> <!-- I changed this -->
+		<string>Update Installed Apps</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>%RECIPE_DIR%/pt.adpassmon.xml</string> <!-- I changed this -->
+		<string>%RECIPE_DIR%/update.adpassmon.pt.xml</string>
 	</dict>
+	
 	<key>MinimumVersion</key>
 	<string>0.5.0</string>
 	<key>ParentRecipe</key>
 	<string>com.github.homebysix.pkg.ADPassMon</string>
+	
 	<key>Process</key>
 	<array>
 		<dict>
@@ -39,11 +42,11 @@
 				<array>
 					<dict>
 						<key>name</key>
-						<string>SW: ADPassMon</string> <!-- I changed this -->
+						<string>SW: ADPassMon</string>
 						<key>smart</key>
 						<true/>
 						<key>template_path</key>
-						<string>%RECIPE_DIR%/sg.adpassmon.xml</string> <!-- I changed this -->
+						<string>%RECIPE_DIR%/sg.adpassmon.xml</string>
 					</dict>
 				</array>
 				<key>policy_category</key>
@@ -52,11 +55,8 @@
 				<string>%POLICY_TEMPLATE%</string>
 				<key>prod_name</key>
 				<string>%NAME%</string>
-				<key>self_service_description</key>
-				<string>%DESCRIPTION%</string>
-				<key>self_service_icon</key>
-				<string>%ICON%</string>
 			</dict>
+			
 			<key>Processor</key>
 			<string>JSSImporter</string>
 		</dict>
