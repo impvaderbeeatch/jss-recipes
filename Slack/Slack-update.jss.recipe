@@ -2,13 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+
 	<key>Comment</key>
-	<string>This recipe will install on Startup</string>
-	
-	<key>Description</key>
-	<string>Downloads the latest version of Slack and makes a pkg of it Then, uploads to the JSS.</string>
+	<string>This recipe will update Slack using Multi-triggers</string>
+
 	<key>Identifier</key>
-	<string>com.github.impvaderbeeatch.jss.install-slack</string>
+	<string>com.github.impvaderbeeatch.jss.update-slack</string>
+	
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -20,9 +20,9 @@
 		<key>NAME</key>
 		<string>Slack</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Install Apps</string>
+		<string>Update Installed Apps</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>%RECIPE_DIR%/pt.install.on.startup.xml</string>
+		<string>%RECIPE_DIR%/update.slack.pt.xml</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
@@ -43,7 +43,7 @@
 						<key>smart</key>
 						<true/>
 						<key>template_path</key>
-        		<string>%RECIPE_DIR%/sgt.install-startup.xml</string>
+        					<string>%RECIPE_DIR%/sgt.install-startup.xml</string>
 					</dict>
 				</array>
 				<key>policy_category</key>
