@@ -2,8 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+
+	<key>Comment</key>
+	<string>This recipe will update CyberDuck using Multi-triggers</string>
+
 	<key>Identifier</key>
-	<string>com.github.impvaderbeeatch.jss.install-cyberduck</string>
+	<string>com.github.impvaderbeeatch.jss.update-cyberduck</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -19,9 +23,9 @@
 		<key>NAME</key>
 		<string>Cyberduck</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Install Apps</string>
+		<string>Update Installed Apps</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>%RECIPE_DIR%/pt.install.on.startup.xml</string>
+		<string>%RECIPE_DIR%/update.cyberduck.pt.xml</string>
 		<key>SPARKLE_FEED_URL</key>
 		<string>https://version.cyberduck.io/changelog.rss</string>
 	</dict>
