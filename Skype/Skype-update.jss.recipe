@@ -2,8 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+
+	<key>Comment</key>
+	<string>This recipe will update Slack using Multi-triggers</string>
+
 	<key>Identifier</key>
-	<string>com.github.impvaderbeeatch.jss.install-skype</string>
+	<string>com.github.impvaderbeeatch.jss.update-skype</string>
+	
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -21,15 +26,10 @@
 		<key>OS_REQUIREMENTS</key>
 		<string>10.11.x,10.10.x,10.9.x</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Install Apps</string>
+		<string>Update Installed Apps</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>%RECIPE_DIR%/pt.install.on.startup.xml</string>
-		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Skype is a freemium voice over IP service and instant messaging client, currently developed by Microsoft-owned Skype Technologies.</string>
-		<key>SELF_SERVICE_ICON</key>
-		<string>Skype.png</string>
-		<key>version</key>
-		<string></string>
+		<string>%RECIPE_DIR%/update.skype.pt.xml</string>
+		
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.jss-recipes.jss.Skype</string>
