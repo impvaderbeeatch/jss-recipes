@@ -20,7 +20,7 @@
 		<key>GROUP_NAME</key>
 		<string>SW: %NAME% needs update</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>%RECIPE_DIR%/sgt.install-startup.xml</string>
+		<string>%RECIPE_DIR%/sgt.skype.xml</string>
 		<key>NAME</key>
 		<string>Skype</string>
 		<key>OS_REQUIREMENTS</key>
