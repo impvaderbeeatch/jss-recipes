@@ -27,7 +27,7 @@
             <value>%VERSION%</value>
         </criterion>
         <criterion>
-            <name>Skype Version</name>
+            <name>Skype Version</name> <!-- The name of the EA -->
             <priority>2</priority>
             <and_or>and</and_or>
             <search_type>is not</search_type>
