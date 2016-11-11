@@ -2,16 +2,16 @@
 <displayName>Skype Version</displayName>
 <description>This EA is because for some reason JSS does parse the entire version string from Info.plist.</description>
 <dataType>string</dataType>
-<scriptContentsMac>#!/bin/sh&#13;
-CFBundleVersion=""&#13;
-if [ -f "/Applications/Skype.app/Contents/Info.plist" ]; then&#13;
-    CFBundleVersion=$(defaults read "/Applications/Skype.app/Contents/Info.plist" CFBundleVersion)&#13;
-&#13;
-echo "&lt;result&gt;$CFBundleVersion&lt;/result&gt;"&#13;
-&#13;
-else &#13;
-echo "&lt;result&gt;Not Installed&lt;/result&gt;"&#13;
-fi&#13;
+<scriptContentsMac>#!/bin/sh
+CFBundleVersion=""
+if [ -f "/Applications/Skype.app/Contents/Info.plist" ]; then
+    CFBundleVersion=$(defaults read "/Applications/Skype.app/Contents/Info.plist" CFBundleVersion)
+
+    echo "<result>$CFBundleVersion</result>"
+
+else
+    echo "<result>Not Installed</result>"
+fi
 exit 0</scriptContentsMac>
 <scriptContentsWindows/>
 </extensionAttribute>
