@@ -28,7 +28,7 @@
 		<key>POLICY_CATEGORY</key>
 		<string>Update Installed Apps</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>%RECIPE_DIR%/update.skype.pt.xml</string>
+		<string>%RECIPE_DIR%/pt.update.skype.xml</string>
 		
 	</dict>
 	<key>ParentRecipe</key>
