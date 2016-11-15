@@ -9,7 +9,7 @@
 	<string>Downloads the latest version of ADPassMon and creates a package. Then, uploads to the JSS.</string>
 	
 	<key>Identifier</key>
-	<string>com.github.impvaderbeeatch.jss.adpassmon</string>
+	<string>com.github.impvaderbeeatch.jss.update-adpassmon</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
