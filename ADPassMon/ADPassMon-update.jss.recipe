@@ -23,7 +23,7 @@
 		<key>POLICY_CATEGORY</key>
 		<string>Update Installed Apps</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>%RECIPE_DIR%/update.adpassmon.pt.xml</string>
+		<string>%RECIPE_DIR%/pt.update.adpassmon.xml</string>
 	</dict>
 	
 	<key>MinimumVersion</key>
