@@ -44,7 +44,7 @@
 						<key>smart</key>
 						<true/>
 						<key>template_path</key>
-						<string>%RECIPE_DIR%/sgt.install-startup.xml</string>
+						<string>%RECIPE_DIR%/sgt.teamviewerqs.xml</string>
 					</dict>
 				</array>
 				<key>policy_category</key>
