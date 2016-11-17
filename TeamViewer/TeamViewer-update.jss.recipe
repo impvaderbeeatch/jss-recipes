@@ -19,7 +19,7 @@
 		<key>NAME</key>
 		<string>TeamViewer</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Update Installed Apps</string>
+		<string>AMS Custom</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>%RECIPE_DIR%/update.teamviewer.pt.xml</string>
 	</dict>
