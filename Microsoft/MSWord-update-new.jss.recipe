@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>com.github.impvaderbeeatch.jss.update-msword2016-new</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Applications</string>
+		<key>DESCRIPTION</key>
+		<string>MS Office Word 2016</string>
+    <key>ICON</key>
+		<string>%RECIPE_DIR%/Word.png</string>
+		<key>CHANNEL</key>
+		<string>Production</string>
+		<key>GROUP_NAME</key>
+		<string>SW: MS Word 2016 needs update</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>%RECIPE_DIR%/sgt.install-startup.xml</string>
+		<key>LOCALE_ID</key>
+		<string>1033</string>
+		<key>NAME</key>
+		<string>Microsoft Word</string>
+		<key>OS_REQUIREMENTS</key>
+		<string>10.12.x,10.11.x,10.10.x</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Update Installed Apps</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>%RECIPE_DIR%/update.msoffice.pt.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Microsoft Word is a popular and powerful word processing app.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>%RECIPE_DIR%/Word.png</string>
+		<key>VERSION</key>
+		<string>latest</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.MicrosoftWord</string>
+</dict>
+</plist>
