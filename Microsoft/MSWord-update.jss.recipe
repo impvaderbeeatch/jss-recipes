@@ -36,7 +36,7 @@
 	<string>0.4.2</string>
 	<key>ParentRecipe</key>
 <!--   	 <string>com.github.impvaderbeeatch.download.MSWord2016</string> -->
-	 <string>com.github.autopkg.download.MSWord2016-II</string>
+	 <string>com.github.impvaderbeeatch.download.MSWord2016-II</string>
   
 	<key>Process</key>
 	<array>
