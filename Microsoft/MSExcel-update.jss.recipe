@@ -16,7 +16,7 @@
 		<key>DESCRIPTION</key>
 		<string>MS Office Excel 2016</string>
 		<key>ICON</key>
-		<string>%RECIPE_DIR%/Images/Excel.png</string>
+		<string>%RECIPE_DIR%/Excel.png</string>
 		<key>GROUP_NAME</key>
 		<string>SW: MS Excel 2016 needs update</string>
 		<key>GROUP_TEMPLATE</key>
