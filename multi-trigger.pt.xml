@@ -7,9 +7,14 @@
             <name>%SITE_NAME%</name>
         </site>
         -->
+      
+<!-- This is Policy Template used for Multi-Trigger policies.
+Copy this file into a new file in the same directory as the recipe you are making.
+Name the file "pt.appname.xml" without the quotes.
+When done, please remove this comments to avoid confusion. -->
         
         <name>Update %PROD_NAME%</name>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
         <trigger>Event</trigger>
         <trigger_checkin>false</trigger_checkin>
         <trigger_enrollment_complete>false</trigger_enrollment_complete>
