@@ -9,7 +9,7 @@
         -->
                                     <!-- This Policy Template is for updating AD Pass Mon. -->
 
-        <name>Update %PROD_NAME%</name>
+        <name>%PROD_NAME%</name>
         <enabled>true</enabled>
         <trigger>Event</trigger>
         <trigger_checkin>true</trigger_checkin>
