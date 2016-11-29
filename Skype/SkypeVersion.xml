@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><extensionAttribute>
-<displayName>Skype Version</displayName>
+<displayName>SkypeVersion</displayName>
 <description>This EA is because for some reason JSS does parse the entire version string from Info.plist.</description>
 <dataType>string</dataType>
 <scriptContentsMac>#!/bin/sh
