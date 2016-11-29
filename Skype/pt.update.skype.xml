@@ -10,7 +10,7 @@
                                     <!-- This Policy Template is for updating VLC. -->
 
         <name>Update %PROD_NAME%</name>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
         <trigger>Event</trigger>
         <trigger_checkin>true</trigger_checkin>
         <trigger_enrollment_complete>false</trigger_enrollment_complete>
