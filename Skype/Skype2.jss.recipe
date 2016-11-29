@@ -14,7 +14,7 @@
 		<key>CATEGORY</key>
 		<string>Applications</string>
 		<key>GROUP_NAME</key>
-		<string>SW: %NAME% needs update</string>
+		<string>SW: %NAME% needs an update real bad</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>%RECIPE_DIR%/sgt.skype.xml</string>
 		<key>NAME</key>
@@ -43,13 +43,14 @@
 			<dict>
 				<key>category</key>
 				<string>%CATEGORY%</string>
-				<key>extension_attributes</key>
+			<!--	<key>extension_attributes</key>
 				<array>
 					<dict>
 						<key>ext_attribute_path</key>
 						<string>%RECIPE_DIR%/SkypeVersion.xml</string>
 					</dict>
 				</array>
+			-->	
 				<key>groups</key>
 				<array>
 					<dict>
