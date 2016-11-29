@@ -7,7 +7,7 @@
 	<string>This recipe will update Slack using Multi-triggers</string>
 
 	<key>Identifier</key>
-	<string>com.github.impvaderbeeatch.jss.update-skype2</string>
+	<string>com.github.impvaderbeeatch.jss.update-skype</string>
 	
 	<key>Input</key>
 	<dict>
