@@ -15,7 +15,7 @@
             <key>POLICY_CATEGORY</key>
             <string>Install Apps</string>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/pt.install.on.startup.xml</string>
+            <string>%RECIPE_DIR%/pt.flashplayer.xml</string>
             <key>ICON</key>
             <string>%RECIPE_DIR%/Adobe Flash Player.png</string>
             <key>DESCRIPTION</key>
