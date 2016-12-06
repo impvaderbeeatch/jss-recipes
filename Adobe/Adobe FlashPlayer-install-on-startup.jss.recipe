@@ -23,7 +23,7 @@
             <key>GROUP_NAME</key>
             <string>SW: Adobe FlashPlayer needs update</string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/Adobe Flash PlayerSmartGroupTemplate.xml</string>
+            <string>%RECIPE_DIR%/sgt.flashplayer.xml</string>
         </dict>
         
         <key>MinimumVersion</key>
