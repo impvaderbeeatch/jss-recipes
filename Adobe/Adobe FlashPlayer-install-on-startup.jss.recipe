@@ -13,7 +13,7 @@
             <key>CATEGORY</key>
             <string>Applications</string>
             <key>POLICY_CATEGORY</key>
-            <string>Update Installed Apps</string>
+            <string>Install Apps</string>
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/pt.install.on.startup.xml</string>
             <key>ICON</key>
